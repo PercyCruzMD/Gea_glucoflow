@@ -312,4 +312,4 @@ st.warning("""
 st.markdown("---")
 # Usar st.query_params (API recomendada) y obtener año actual o default
 footer_year = st.query_params.get("year", CURRENT_YEAR)
-st.caption(f"© {footer_year} GEA GlucoFlow (Nombre Ficticio). Herramienta educativa.")
+st.caption(f"© {footer_year} GEA GlucoFlow. Herramienta educativa.")
